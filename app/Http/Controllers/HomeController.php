@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Master;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -10,12 +11,32 @@ class HomeController extends Controller
 
     public function home()
     {
-        return view('home');
+        $masters = Master::all();
+        return view('home',['masters'=>$masters]);
     }
 
-    public function single(){
+    public function create(){
+        return view('master.create');
+    }
 
-        return view('pages.single');
+    public function store(Request $request)
+    {
+        $master = new Master();
+        $master->name = $request->name;
+        $master->family = $request->family;
+        $master->field_of_Study = $request->field_of_Study;
+        $master->academic_rank = $request->academic_rank;
+        $master->educational_group = $request->educational_group;
+        $master->college = $request->college;
+        $master->save();
+        $masters = Master::all();
+        return redirect()->route('home')->with('masters',$masters);
+    }
+
+    public function single(Request $request)
+    {
+        $master = Master::where('id',$request->id)->first();
+        return view('pages.single',['master'=>$master]);
     }
 
     public function biography(){

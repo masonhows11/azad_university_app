@@ -11,13 +11,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link " href="#">خانه</a>
+                        <a class="nav-link " href="{{ route('home') }}">خانه</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">اساتید</a>
+                        <a class="nav-link" href="{{ route('master.create') }}">اساتید</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">دانشجو</a>
+                        <a class="nav-link" href="{{ route('not.found') }}">دانشجو</a>
                     </li>
                 </ul>
             </div>

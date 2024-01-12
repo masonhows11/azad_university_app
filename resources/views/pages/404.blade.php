@@ -3,5 +3,7 @@
     دانشگاه آزاد اسلامی
 @endsection
 @section('main_content')
-    <h1> صفحه مورد نظر پیدا نشد </h1>
+  <div style="margin-top: 300px">
+      <h3 style="text-align: center"> صفحه مورد نظر پیدا نشد </h3>
+  </div>
 @endsection

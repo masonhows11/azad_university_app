@@ -15,7 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class,'home'])->name('home');
-Route::get('/notFound', [HomeController::class,'home'])->name('not.found');
+Route::get('/notFound', [HomeController::class,'notFound'])->name('not.found');
+
+Route::get('/create/master',[HomeController::class,'create'])->name('master.create');
+Route::post('/store/master',[HomeController::class,'store'])->name('master.store');
 
 Route::get('/single', [HomeController::class,'single'])->name('single');
 Route::get('/biography', [HomeController::class,'biography'])->name('biography');

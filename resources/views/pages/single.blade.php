@@ -23,14 +23,10 @@
 
                                 <div>
                                     <ul class="single-master-info-list">
-                                        <li>گروه آموزشی : <span class="master-info-value">علوم
-                          تربیتی</span></li>
-                                        <li>دانشکده : <span class="master-info-value">علوم تربیتی،
-                          روانشناسی و زبان های خارجی</span></li>
-                                        <li>رشته تحصیلی : <span class="master-info-value">مدیریت
-                          آموزشی</span></li>
-                                        <li>مرتبه علمی : <span
-                                                class="master-info-value">دانشیار</span></li>
+                                        <li>گروه آموزشی : <span class="master-info-value">{{ $master->educational_group }}</span></li>
+                                        <li>دانشکده : <span class="master-info-value">{{ $master->college }}</span></li>
+                                        <li>رشته تحصیلی : <span class="master-info-value">{{ $master->field_of_Study }}</span></li>
+                                        <li>مرتبه علمی : <span class="master-info-value">{{ $master->academic_rank }}</span></li>
                                     </ul>
                                 </div>
 

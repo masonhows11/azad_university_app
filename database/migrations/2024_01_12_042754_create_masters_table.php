@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('family')->nullable();
             $table->string('academic_rank')->nullable();
             $table->string('educational_group')->nullable();
+            $table->string('field_of_Study')->nullable();
             $table->string('college')->nullable();
             $table->timestamps();
         });

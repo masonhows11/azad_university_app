@@ -11,6 +11,7 @@ class Master extends Model
     protected $fillable = [
         'name',
         'family',
+        'field_of_Study',
         'academic_rank',
         'educational_group',
         'college'

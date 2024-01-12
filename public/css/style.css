@@ -82,7 +82,15 @@ body {
 .item-master-image a {
     text-decoration: none;
 }
-
+.create-master{
+    margin: 35px 0 35px 0;
+}
+.new-master-title{
+    margin:10px 0 10px 0;
+}
+.create-master-wrapper{
+    height: auto;
+}
 /* footer style */
 .footer-section {
     background-color: #013064;
