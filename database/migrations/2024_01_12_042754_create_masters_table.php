@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('masters', function (Blueprint $table) {
             $table->id();
+            $table->string('name')->nullable();
+            $table->string('family')->nullable();
+            $table->string('academic_rank')->nullable();
+            $table->string('educational_group')->nullable();
+            $table->string('college')->nullable();
             $table->timestamps();
         });
     }
