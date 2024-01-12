@@ -15,6 +15,11 @@ class HomeController extends Controller
         return view('home',['masters'=>$masters]);
     }
 
+    public function search(Request $request)
+    {
+        $masters = Master::where('field_of_Study','like','%'. $request->field_of_Study .'%')->get();
+        return view('home',['masters'=>$masters]);
+    }
     public function create(){
         return view('master.create');
     }

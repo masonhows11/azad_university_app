@@ -18,10 +18,9 @@
                                     <a href="{{ route('single',['id' => $master->id]) }}">
                                         <img src="{{ asset('images/no-image-icon.png') }}" class="img-thumbnail" alt="master-image">
                                     </a>
-
                                 </div>
                                 <a href="{{ route('single',['id' => $master->id]) }}">
-                                    <h5 class="card-title item-master-name">{{ $master->name . $master->family }}</h5>
+                                    <h5 class="card-title item-master-name">{{ $master->name . ' ' . $master->family }}</h5>
                                 </a>
 
                             </div>

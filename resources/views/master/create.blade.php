@@ -23,8 +23,15 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="   field_of_Study" class="form-label">رشته تحصیلی</label>
-                        <input type="text" name="field_of_Study" class="form-control" id="field_of_Study">
+                        <label for="field_of_Study" class="form-label">رشته تحصیلی</label>
+                        <select name="field_of_Study"  class="form-control" id="field_of_Study">
+                            <option value="رشته معماری">رشته معماری</option>
+                            <option value="رشته عمران">رشته عمران</option>
+                            <option value="رشته راه و ساختمان">رشته راه و ساختمان</option>
+                            <option value="رشته کامپیوتر نرم افزار">رشته کامپیوتر نرم افزار</option>
+                            <option value="مدیریت آموزشی">مدیریت آموزشی</option>
+                        </select>
+{{--                        <input type="text" name="field_of_Study" class="form-control" id="field_of_Study">--}}
                     </div>
 
                     <div class="mb-3">
