@@ -1,7 +1,7 @@
 <div class="navbar-section">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">دانشگاه آزاد اسلامی</a>
+            <a class="navbar-brand" href="{{ route('home') }}">دانشگاه آزاد اسلامی</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false"

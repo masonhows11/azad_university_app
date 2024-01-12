@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [\App\Http\Controllers\HomeController::class,'home'])->name('home');
+Route::get('/', [HomeController::class,'home'])->name('home');
+Route::get('/notFound', [HomeController::class,'home'])->name('not.found');
+
+Route::get('/single', [HomeController::class,'single'])->name('single');
+Route::get('/biography', [HomeController::class,'biography'])->name('biography');
+
+Route::get('/weeklySchedule', [HomeController::class,'weeklySchedule'])->name('weekly.schedule');
+
+Route::get('/download', [HomeController::class,'download'])->name('download');
+
+Route::get('/contact', [HomeController::class,'contact'])->name('contact');
+
+Route::get('/elanat', [HomeController::class,'elanat'])->name('elanat');
+
+Route::get('/books', [HomeController::class,'books'])->name('books');
+
+Route::get('/lectures', [HomeController::class,'lectures'])->name('lectures');
+
+Route::get('/tahgdirnameha', [HomeController::class,'tahgdirnameha'])->name('tahgdirnameha');
+
+Route::get('/payannameh', [HomeController::class,'payannameh'])->name('payannameh');

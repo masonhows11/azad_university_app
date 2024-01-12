@@ -14,12 +14,15 @@
                         <div class="card-body item-master-image">
                             <div>
                                 <div class="image img-thumbnail">
-                                    <a href="single.html"><img src="images/no-image-icon.png"
-                                                               class="img-thumbnail" alt="master-image"></a>
+                                    <a href="{{ route('single') }}">
+                                        <img src="{{ asset('images/no-image-icon.png') }}" class="img-thumbnail" alt="master-image">
+                                    </a>
+
                                 </div>
-                                <a href="single.html"><h5
-                                        class="card-title item-master-name">دکتر فریبا
-                                        کریمی</h5></a>
+                                <a href="{{ route('single') }}">
+                                    <h5 class="card-title item-master-name">دکتر فریبا  کریمی</h5>
+                                </a>
+
                             </div>
                         </div>
 
