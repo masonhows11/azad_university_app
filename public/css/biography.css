@@ -1,0 +1,66 @@
+.biography-info {
+    background-color       : #BDCCD3;
+    border-top-left-radius : 30px;
+    border-top-right-radius: 30px;
+}
+
+.info-header {
+    height               : auto;
+    padding              : 1px 0 1px 0;
+    background-image     : linear-gradient(to right, white, blue);
+    border-radius        : 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius   : 20px;
+    -ms-border-radius    : 20px;
+    -o-border-radius     : 20px;
+}
+
+.info-header p {
+    margin-top  : 5px;
+    margin-right: 10px;
+    color       : yellow;
+}
+
+.biography-info-content {
+    font-weight: 600;
+    font-size  : 1rem;
+}
+
+.record-info,
+.name-family-info {
+    display: flex;
+}
+
+.info-record-content p,
+.name-family-info p {
+    color       : #515C5F;
+    margin-right: 10px;
+}
+
+.name-family-info span {
+    color: #13324E;
+}
+
+.record-section-part-two,
+.record-section {
+    margin-top: 30px;
+}
+
+.info-header-record p {
+
+    margin: 0 5px 0 0;
+}
+
+.info-header-record {
+    background-color: #C0C0C0;
+    color           : yellow;
+}
+
+.info-record-content {
+    background-color: #FFFFFF;
+}
+
+.record-section-part-two div {
+    color     : #052643;
+    margin-top: 10px;
+}

@@ -1,0 +1,282 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    display         : flex;
+    height          : 100%;
+    flex-direction  : column;
+    background-color: lightblue;
+    font-family     : 'iransans', sans-serif;
+}
+
+/* navbar style */
+.navbar-section .navbar {
+    background-color: #013064;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+/* search style */
+.search-section .row .col-lg-6,
+.search-section {
+    margin-top: 5px;
+}
+
+/* main section style */
+
+.main-section {
+    margin-top   : 2rem;
+    margin-bottom: 2rem;
+}
+
+.item-master-info {
+    background-color: #9EB0BA;
+}
+
+.item-master-image {
+    margin: 0 auto 0 auto;
+}
+
+.item-master-image .card-title {
+    text-align: center;
+}
+
+.master-info-list {
+    list-style-type: none;
+    padding-right  : 0;
+}
+
+.item-master-name {
+    margin-top: 10px;
+    color     : white;
+}
+
+.item-master-image .image img {
+    width : 160px;
+    height: 160px;
+}
+
+.item-master-image .image {
+    background-color: white;
+}
+
+.master-info-value {
+    color: blue;
+}
+
+.master-info-list .master-web-site,
+.master-talking-room {
+    text-decoration: none;
+
+}
+
+.master-talking-room {
+    color: white;
+}
+
+.item-master-image a {
+    text-decoration: none;
+}
+
+/* footer style */
+.footer-section {
+    background-color: #013064;
+    height          : auto;
+    margin-top      : auto;
+}
+
+.footer-content {
+    height: auto;
+
+}
+
+.footer-section-right,
+.footer-section-center,
+.footer-section-left {
+    height: auto;
+}
+
+.footer-right-content,
+.footer-center-content,
+.footer-left-content {
+    height               : 250px;
+    border               : 4px solid lightblue;
+    border-radius        : 5px;
+    margin               : 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius   : 5px;
+    -ms-border-radius    : 5px;
+    -o-border-radius     : 5px;
+}
+
+/* other page style */
+
+.info-header {
+    height               : auto;
+    padding              : 1px 0 1px 0;
+    background-image     : linear-gradient(to right, white, blue);
+    border-radius        : 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius   : 20px;
+    -ms-border-radius    : 20px;
+    -o-border-radius     : 20px;
+}
+
+.info-header p {
+    margin-top  : 5px;
+    margin-right: 10px;
+    color       : yellow;
+}
+
+.general-info {
+    background-color       : #BDCCD3;
+    border-top-left-radius : 30px;
+    border-top-right-radius: 30px;
+    height                 : auto;
+}
+
+/* books page style */
+
+.book-content {
+    display: flex;
+}
+
+.book-content {
+    background-color: #BECBD3;
+    height          : auto;
+    margin          : 5px 10px 5px 15px;
+    border-bottom   : 2px solid gray;
+}
+
+.book-content .file-image img {
+    width : 70px;
+    height: 70px;
+}
+.book-info-list{
+    font-size: 0.9rem;
+    color:#000001;
+    list-style-type: none;
+}
+
+/* download page style */
+.download-content {
+    display: flex;
+}
+
+.download-content {
+    background-color: #BECBD3;
+    height          : 120px;
+    margin          : 5px 10px 5px 15px;
+    border-bottom   : 2px solid gray;
+}
+
+.file-info {
+    margin-right: 10px;
+    font-weight : 600;
+    color       : white;
+}
+
+.download-content .file-image img {
+    width : 70px;
+    height: 70px;
+}
+
+.file-count,
+.file-view {
+    font-size: 0.9rem;
+    color    : #013064;
+}
+
+/* contact to master style */
+.contact-form {
+    margin:30px 25px 30px 25px;
+}
+.contact-form textarea,
+.contact-form input{
+    border-radius: 5px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form-element label{
+    width:100px;
+}
+.form-element input[type='text'],
+.form-element input[type='email']{
+    width:300px;
+}
+
+.form-element{
+    margin-top:10px;
+    display: flex;
+    justify-content:space-between;
+}
+.submit-button{
+    margin-top: 30px;
+    color:white;
+    padding: 10px;
+    border-radius:10px;
+    background-color: green;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+.address-section{
+    margin: 0 auto 0 auto;
+}
+.address-content{
+    border-radius: 5px;
+    text-align: center;
+    padding:5px;
+    color:black;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.message-tracking{
+    margin:20px 0 20px 0;
+    padding:8px 3px 8px 3px;
+    border-radius:5px;
+    background-color: #CDFFCC;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.message-tracking-input{
+    width:100px;
+}
+.message-tracking-button{
+    color:black;
+    background-color: #FFCB66;
+    font-weight:600;
+}
+
+/* weeklys chedule style*/
+
+.table-week thead td{
+    color:white;
+    background-color:#006599;
+}
+.table-week .thead td{
+    font-family:'iransans';
+}
+.table-week tbody{
+    color: #006599;
+    background-color:white;
+}
+.table-week .week-day{
+    color:#838383;
+    background-color:#DDDDDD;
+}
